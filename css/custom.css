@@ -1,0 +1,74 @@
+#menu { background:rgba(91, 205, 32, 0.5);  padding: 20px; margin: 50px 0;  border-radius: 2px; }
+#menu ul{margin: 0; padding: 0}
+#menu ul li{list-style: none; display: block; border-bottom: 1px solid #9FE864; position: relative; }
+#menu ul li:before {content: ""; position: absolute; bottom: -1px; left: 0; height: 1px; width: 0%; background: #fff; transition: .35s ease;   }
+#menu ul li:hover:before {content: ""; position: absolute; bottom: -1px; left: 0; height: 1px; width: 100%; background: #fff;  }
+#menu ul li a{display: block; font-size: 16px;   padding: 7px 10px; color: #fff }
+#menu ul li a:hover{}
+.page_menu  #menu ul li{list-style: none; display: block; border-bottom: 1px solid #ddd; position: relative; }
+.page_menu #menu {background:rgba(91, 205, 32, 0.0);  padding: 20px; margin: 50px 0;  border-radius: 2px; }
+.page_menu #menu ul li a {color: #0054A6;}
+.page_menu #menu ul li:before {content: ""; position: absolute; bottom: -1px; left: 0; height: 1px; width: 0%; background: #ddd; transition: .35s ease; }
+.page_menu #menu ul li:hover:before {content: ""; position: absolute; bottom: -1px; left: 0; height: 1px; width: 100%;  background: #0054A6; z-index: 9 }
+.tag {background: url(../images/tagline.png) no-repeat bottom right; height: 150px;display: inline-block;width: 80px;  position: absolute; right: 0px; transition: 0.35s ease; z-index: 9 }
+.tag:hover {height: 170px}
+.tag2 {background: url(../images/tagline.png) no-repeat bottom right; height: 150px;display: inline-block;width: 80px;  position: absolute; right: 80px; transition: 0.35s ease; z-index: 9;  }
+.tag2:hover {height: 170px}
+.tag_text {position: absolute; transform: rotate(90deg); right: -18px; top: 55px; font-size: 15px; color: #fff}
+.head  {display: block}
+.head h1 {position: relative; top: 60px; font-weight: 700}
+.page_menu {text-align: left; }
+.one_half {width: 50%; float: left; display: block; overflow: hidden; height: 100%}
+
+.item blockquote {font-family: "Varela Round", Arial, sans-serif }
+#quote-carousel img {height: 150px; width: 150px}
+#booking_container {
+    position: relative;
+    height: 450px;
+/*	padding-top:130px;*/
+    background: #ccc url(../images/bg.jpg) no-repeat center top;
+    background-size: cover;
+    color:#fff;
+	width: 100%;
+	z-index:99;
+}
+.head h1 {color: #fff; font-family: 'Roboto Slab', serif; font-weight: 400; font-size: 43px}
+.tag_outer {position: relative; display: block; }
+.top_tag .col-md-12 {min-height: 0px}
+.logo  {position: relative; }
+.logo img {position: absolute; left: 0; top: -40px}
+.head span {font-size: 50px; color: #fff; font-weight: 400; position: relative; top: 10px; font-family: 'Roboto Slab', serif;}
+.footer_menu ul {margin: 0; padding: 0; text-align: center}
+.footer_menu ul li{list-style: none; float: none; display: inline-block; }
+.footer_menu ul li a{display: block; padding: 10px; color: #fff; }
+.footer_menu ul li a:hover{color: #92278F}
+#social_footer {padding-top: 10px; margin-top: 0}
+.member { text-align: center; padding: 5px;   }
+.member img { display: inline-block; width: 50%; margin-bottom: 20px }
+.member_wrapper {  padding: 8px; overflow: hidden;  display: inline-block;}
+
+/*marque*/
+#box {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+        border: 1px solid #ddd;
+}
+
+#inner { position: absolute; }
+
+.top { top: 0px; }
+
+.bottom { bottom: 0px; }
+
+.left { left: 0px; }
+
+.right { right: 0px; }
+
+.content {
+  height: 300px;
+  background: #F9F9F9;
+  color: #333;
+  padding: 20px;
+
+}

@@ -1,0 +1,193 @@
+@keyframes move {
+  0% {
+    position: relative;
+    left: -300px; }
+  100% {
+    position: relative;
+    left: 0px; } }
+
+/* line 13, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+body {
+  font-family: 'Noto Sans', sans-serif;
+  color: #333; }
+  /* line 16, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+  body a:hover {
+    text-decoration: none; }
+
+/* line 18, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+.sidebar_bg {
+  background: #47484B; }
+
+/* line 20, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* line 26, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+.btn {
+  border-radius: 0;
+  padding: 5px 15px; }
+
+/* line 29, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+.form-control {
+  border-radius: 0;
+  background: #ddd;
+  height: 30px; }
+
+/* line 33, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+td, th {
+  vertical-align: middle !important; }
+
+/* line 35, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+.fix {
+  overflow: hidden; }
+
+/* line 37, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+.header-top {
+  background: #47484B;
+  border-bottom: 1px solid #85868A; }
+  /* line 40, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+  .header-top .dropdown-toggle {
+    cursor: pointer; }
+  /* line 42, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+  .header-top ul {
+    margin: 0 50px 0 0;
+    padding: 0;
+    float: right; }
+    /* line 46, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+    .header-top ul li {
+      float: left;
+      list-style: none; }
+      /* line 49, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+      .header-top ul li span {
+        margin-right: 7px; }
+      /* line 51, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+      .header-top ul li a {
+        display: block;
+        padding: 11px 30px;
+        color: #fff; }
+      /* line 55, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+      .header-top ul li .btn-group {
+        display: block;
+        padding: 10px 30px;
+        color: #fff; }
+        /* line 59, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+        .header-top ul li .btn-group li {
+          width: 100%; }
+        /* line 61, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+        .header-top ul li .btn-group a {
+          color: #2c3e50;
+          display: block; }
+  /* line 67, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+  .header-top .logo {
+    color: #fff;
+    font-size: 20px;
+    padding: 7px 10px; }
+
+/* line 71, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+.sidebar {
+  background: #47484B;
+  height: 94vh; }
+  /* line 74, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+  .sidebar ul {
+    margin: 0;
+    padding: 0; }
+    /* line 77, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+    .sidebar ul li {
+      list-style: none;
+      border-bottom: 1px solid #85868A; }
+      /* line 81, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+      .sidebar ul li ul li {
+        border-top: 0px solid #85868A; }
+        /* line 83, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+        .sidebar ul li ul li:first-child {
+          border-top: 1px solid #85868A; }
+        /* line 85, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+        .sidebar ul li ul li:last-child {
+          border-bottom: 0px solid; }
+      /* line 89, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+      .sidebar ul li span {
+        padding: 0px 7px; }
+      /* line 91, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+      .sidebar ul li a {
+        padding: 10px;
+        color: #fff;
+        display: block;
+        transition: .35s ease;
+        background: #47484B; }
+        /* line 97, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+        .sidebar ul li a:hover {
+          background: #656669;
+          text-indent: 5px;
+          color: #fff; }
+  /* line 102, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+  .sidebar .dropdown a {
+    padding: 10px;
+    color: #fff;
+    display: block;
+    transition: .35s ease;
+    background: #47484B;
+    cursor: pointer; }
+    /* line 109, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+    .sidebar .dropdown a:hover {
+      background: #656669;
+      text-indent: 5px;
+      color: #fff; }
+  /* line 113, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+  .sidebar .dropdown .dropdown-menu {
+    border: 0px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 0px 0px transparent;
+    position: static;
+    width: 100%;
+    float: none; }
+  /* line 123, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+  .sidebar .dash_head {
+    background: #656669;
+    padding: 10px;
+    color: #fff; }
+
+/* line 127, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+.main-content {
+  background: #ecf0f1; }
+  /* line 129, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+  .main-content .table {
+    padding: 30px 15px; }
+    /* line 131, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+    .main-content .table .btn {
+      padding: 2px 10px; }
+  /* line 134, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+  .main-content .login {
+    width: 350px;
+    background: #47484B;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 7px; }
+    /* line 140, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+    .main-content .login h3 {
+      padding: 20px 0 10px 0;
+      text-align: center;
+      color: #fff;
+      border-bottom: 1px solid #85868A; }
+    /* line 145, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+    .main-content .login .login_body {
+      padding: 5px 20px 20px; }
+      /* line 147, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+      .main-content .login .login_body .link {
+        color: #ddd;
+        text-align: left;
+        display: block;
+        overflow: hidden; }
+        /* line 152, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+        .main-content .login .login_body .link a {
+          color: #ddd; }
+          /* line 154, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+          .main-content .login .login_body .link a:hover {
+            color: #fff; }
+      /* line 157, E:/xampp/htdocs/simple work/admin_panel/sass/admin_style.sass */
+      .main-content .login .login_body input {
+        margin-bottom: 10px; }
+
+/*# sourceMappingURL=admin_style.css.map */
